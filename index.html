@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="background-shape shape-1"></div>
+    <div class="background-shape shape-2"></div>
+    <div class="background-shape shape-3"></div>
+
+    <main class="container">
+      <nav class="top-nav card">
+        <p class="brand">Portfolio</p>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+
+      <header class="hero card" id="about">
+        <div class="hero-left">
+          <p class="tag">Available for learning projects</p>
+          <h1>Hi, I'm Naresh 👋</h1>
+          <p class="subtitle">Frontend Developer</p>
+          <p class="intro">
+            I build clean and responsive web pages while learning modern
+            frontend development and improving my UI design skills.
+          </p>
+          <div class="cta-wrap">
+            <a class="cta" href="#projects">View Projects</a>
+            <a class="cta cta-secondary" href="#contact">Let’s Connect</a>
+          </div>
+        </div>
+
+        <aside class="hero-right">
+          <div class="avatar-ring">
+            <span>N</span>
+          </div>
+          <ul class="quick-stats">
+            <li><strong>Focus:</strong> Frontend Development</li>
+            <li><strong>Stack:</strong> HTML, CSS, JavaScript</li>
+            <li><strong>Goal:</strong> Build beautiful web experiences</li>
+          </ul>
+        </aside>
+      </header>
+
+      <section class="card" id="about-details">
+        <h2>About Me</h2>
+        <p>
+          I am a beginner frontend developer learning HTML, CSS and JavaScript.
+        </p>
+      </section>
+
+      <section class="split-grid">
+        <article class="card" id="skills">
+          <h2>Skills</h2>
+          <ul class="skill-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </article>
+
+        <article class="card" id="projects">
+          <h2>Projects</h2>
+          <div class="project-item">
+            <h3>Portfolio Website</h3>
+            <p>This project where I showcase my skills and work.</p>
+          </div>
+        </article>
+      </section>
+
+      <section class="card" id="contact">
+        <h2>Contact</h2>
+        <p>Email: raj1234@gmail.com</p>
+        <p class="contact-note">
+          Open to collaborations and learning opportunities.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
